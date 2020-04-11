@@ -1,0 +1,12 @@
+/* Base Styles */
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #333;
+}
+
+#main {
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/26/21/39/rose-2101475_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+}
