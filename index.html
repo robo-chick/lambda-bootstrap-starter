@@ -10,78 +10,107 @@
         <!-- Font Awesome -->
         <link rel="stylesheet" type="text/css" href="font-awesome/css/all.css">
         <!-- Put your Bootstrap here -->
-        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
     </head>
     <body>
         <header>
-            <nav>
-               <h1>Elizabeth Bennet</h1>
-               <ul>
-                <li>
-                  <a href="#">Home</a>
+            <nav class='navbar navbar-expand-lg navbar-light'>
+              <div lcass='container'>
+               <h1 class='navbar-brand'>Tasha Hollingsworth</h1>
+               <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent'><span class='navbar-toggle-icon'></span></button>
+               <div class='collapse navbar-collapse' id='navbarSupportedContent'>
+               <ul class='nav navbar-nav mr-auto'>
+                <li class='nav item'>
+                  <a href="#" class='nav-link'>Home</a>
                 </li>
           
-                <li>
-                  <a href="#">About</a>
+                <li class='nav item'>
+                  <a href="#" class='nav-link'>About</a>
                 </li>
           
-                <li>
-                  <a href="#">Blog</a>
+                <li class='nav item'>
+                  <a href="#" class='nav-link'>Blog</a>
                 </li>
           
                 <li class="nav-item">
-                  <a href="#">Portfolio</a>
+                  <a href="#" class='nav-link'>Portfolio</a>
                 </li>
                </ul>
+              </div>
+            </div>
               </nav>
           </header>
           
           <main>
+            <div class='container-fluid'>
             <section id="main">
-              <div class="name">
-                <h2><strong>Elizabeth Bennet</strong></h2>
+              <div class="name text-center">
+                <h2><strong>Tasha Hollingsworth</strong></h2>
                 <h3>Web Developer</h3>
-                <button>Hire Me!</button>
+                <button class='btn btn-info btn-lg'>Hire Me!</button>
               </div>
             </section>
           
             <section id="work">
-              <div class="project">
-                <img src="https://cdn.pixabay.com/photo/2015/03/26/09/39/cupcakes-690040_960_720.jpg" alt="cupcakes" />
-                <h3>Project One</h3>
+              <div class='row'>
+              <div class="project col-sm-12 col-md-4 col-lg-4">
+                <img src="https://cdn.pixabay.com/photo/2015/03/26/09/39/cupcakes-690040_960_720.jpg" alt="cupcakes" class='img-thumbnail'/>
+                <h3 class='text-center'>Project One</h3>
                 <p>“We have heard only twice. He wrote me a few lines on Wednesday to say that he had arrived in safety, and to give me his directions, which I particularly begged him to do. He merely added that he should not write again till he had something of importance to mention.”</p>
-                 <button>See Project</button>
+                 <button class='btn btn-block btn-info'>See Project</button>
               </div>
                     
-              <div class="project">
-                <img src="https://cdn.pixabay.com/photo/2014/05/02/21/47/workstation-336369_960_720.jpg" alt="computer"/>
-                <h3>Project Two</h3>
+              <div class="project col-sm-12 col-md-4 col-lg-4">
+                <img src="https://cdn.pixabay.com/photo/2014/05/02/21/47/workstation-336369_960_720.jpg" alt="computer" class='img-thumbnail'/>
+                <h3 class='text-center'>Project Two</h3>
                 <p>“We have heard only twice. He wrote me a few lines on Wednesday to say that he had arrived in safety, and to give me his directions, which I particularly begged him to do. He merely added that he should not write again till he had something of importance to mention.”</p>
-                <button>See Project</button>
+                <button class='btn btn-block btn-info'>See Project</button>
               </div>
                     
-              <div class="project">
-                <img src="https://cdn.pixabay.com/photo/2015/04/20/13/18/notebook-731212_960_720.jpg" alt="notebook" />
-                <h3>Project Three</h3>
+              <div class="project col-sm-12 col-md-4 col-lg-4">
+                <img src="https://cdn.pixabay.com/photo/2015/04/20/13/18/notebook-731212_960_720.jpg" alt="notebook" class='img-thumbnail'/>
+                <h3 class='text-center'>Project Three</h3>
                 <p>“We have heard only twice. He wrote me a few lines on Wednesday to say that he had arrived in safety, and to give me his directions, which I particularly begged him to do. He merely added that he should not write again till he had something of importance to mention.”</p>
-                <button>See Project</button>
+                <button class='btn btn-block btn-info'>See Project</button>
                </div>
+              </div>
+            </div>
             </section>
                 
             <section id="form">
-              <h3>Sign up for Mailing List</h3>
+              <div class='container'>
+              <h3 class='text-cetner'>Sign up for Mailing List</h3>
             
               <form>
-                <input type="name" placeholder="Name">
-                <input type="email" placeholder="E-mail">
-                <button type="submit">Submit</button>
+                <div class='form-group'>
+                  <div class='row'>
+                    <div class='col-sm-12 col-md-5 col-lg-5'>
+                <input type="name" placeholder="Name" class='form-group form-control form-control-lg'>
+                    </div>
+                    <div class='col-sm-12 col-md-5 col-lg-5'></div>
+                <input type="email" placeholder="E-mail" class='form-group form-control form-control-lg'>
+                  </div>
+                  <div class='col-sm-12 col-med-2 col-lg-2'>
+                <button type="submit" class='form-group btn btn-primary btn-lg'>Submit</button>
+              </div>
+            </div>
+          </div>
               </form>
+            </div>
+            </section>
+          </div>
             </section>
           </main>
           
           <footer>
+            <div class='container'>
+              <div class='row'>
+                <div class='col-sm-12 col-med-6 col-lg-6'>
             <p>&copy; 2020 Elizabeth Bennet All Rights Reserved</p>
-              
+          </div>
+          <div class='col-sm-12 col-md-6 col-lg-6'>
             <nav>
               <ul>
                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -90,6 +119,9 @@
                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
               </ul>
             </nav>
+          </div>
+        </div>
+      </div>
           </footer>
     </body>
 </html>
